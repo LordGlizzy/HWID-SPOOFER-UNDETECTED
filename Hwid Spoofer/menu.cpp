@@ -3858,7 +3858,7 @@ void Menu::Render()
 	static ImVec4 inactive = ImGuiPP::ToVec4(255, 255,255, 255);
 
 	ImGui::BeginChild("##TopBar", ImVec2(ImGui::GetContentRegionAvail().x, 40), TRUE);
-	ImGuiPP::CenterText("HwID Spoofer", 0, 0);
+	ImGuiPP::CenterText("cheatsense Spoofer", 0, 0);
 	ImGui::EndChild();
 
 	ImGuiPP::Line(1);
@@ -3903,7 +3903,7 @@ void Menu::Render()
 			{
 				menu:
 			case 0:
-				ImGuiPP::CenterText("Welcome back to HwID Spoofer", 1, TRUE);
+				ImGuiPP::CenterText("Welcome back to cheatsense Spoofer", 1, TRUE);
 				ImGui::NewLine();
 				ImGui::TextColored(ImColor(220, 190, 0, 255), "Version: 1.0");
 				ImGui::Text("Status: Undetected");
@@ -3963,7 +3963,7 @@ void Menu::Render()
 			case 2:
 				ImGui::PushStyleVar(ImGuiStyleVar_FramePadding, ImVec2(5, 5));
 
-				ImGui::Text("by Kalysse");
+				ImGui::Text("by delux");
 
 				ImGui::PopStyleVar();
 				break;
